@@ -1,3 +1,5 @@
 #!/usr/bin/python3
+fig = 3
 str = "Holberton School"
-print(str*3)
+print(str*fig)
+print(str[:9])
