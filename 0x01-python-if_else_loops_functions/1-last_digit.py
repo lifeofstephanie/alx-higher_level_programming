@@ -8,8 +8,8 @@ else:
     num = number % 10
 
 if num > 5:
-    print(f"The last digit of {number} is {num} and it's greater than 5")
+    print(f"Last digit of {number} is {num} and is greater than 5")
 elif num == 0:
-    print("0")
+    print(f"Last digit of {number} is {num} and is zero")
 else:
-    print(f"The last digit of {number} is {num} and it is less than 6 but greater than 0")
+    print(f"Last digit of {number} is {num} and is less than 6 but greater than 0")
